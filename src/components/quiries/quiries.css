@@ -1,0 +1,26 @@
+.quiriesDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 16px;
+    margin-top: 1%;
+    background-color: rgb(252, 191, 78);
+    border-radius: 10px;
+    position: relative; 
+  }
+  
+  .inputField {
+    border-radius: 50px;
+    width: 100%; 
+    max-width: 300px; 
+    margin-bottom: 16px; 
+  }
+  
+  .queryImage {
+    position: absolute;
+    right: 16px; 
+    bottom: 16px; 
+    width: 100px; 
+    height: 100px;
+  }
+  

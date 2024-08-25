@@ -1,0 +1,50 @@
+.storeBody{
+    margin-top: 5px;
+    padding: 0.5rem;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    margin: 5px;
+}
+
+.storeHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shield{
+    color: rgb(3, 165, 3);
+}
+
+.points{
+    background-color: rgb(1, 179, 1);
+    color: white;
+    width: 2rem;
+    border-radius: 5px;
+}
+.stars{
+    color: yellow;
+    padding: 2px;
+}
+
+.reviewsCount{
+    text-decoration: underline;
+}
+
+.rate{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 3rem;
+}
+
+.rate:hover{
+    background-color: #ccc;
+}
+
+.review{
+    border: 1px solid #ccc;
+    border-radius: 5PX;
+}

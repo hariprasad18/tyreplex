@@ -1,0 +1,29 @@
+
+.salesTabs {
+       transition: box-shadow 0.3s ease; 
+  }
+  
+  .salesTabs:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  @media (max-width: 770px) {
+    .salesTabs {
+      text-align: center; 
+      margin: 0 auto; 
+    }
+    
+    .salesTabs img {
+      display: block; 
+      margin: 0 auto; 
+    }
+  }
+
+  p span:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+
+  }
+  

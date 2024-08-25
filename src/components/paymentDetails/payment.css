@@ -1,0 +1,28 @@
+.payment-container {
+    padding: 10px;
+    overflow: auto;
+  }
+  
+  .payment-list {
+    list-style-type: none; 
+    padding: 0;
+    color: green;
+    justify-content: space-evenly;
+    
+  }
+  
+  .payment-list li {
+    position: relative; 
+    padding-left: 25px; 
+    margin-bottom: 10px; 
+  }
+  
+  .payment-list li::before {
+    content: '✔'; 
+     
+    position: absolute;
+    left: 0; 
+    top: 0;
+    font-size: 16px;
+  }
+  

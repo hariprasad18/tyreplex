@@ -7,7 +7,7 @@ const Reviews = (props) => {
     <Col className='review m-1 p-2'>
     <Row>
     <div className='d-flex align-items-center'>
-    <img className="rounded-circle" src={props.url} alt='Review Image' width={30} height={30} />
+    <img className="rounded-circle" src={props.url} alt='Review' width={30} height={30} />
     <p className='fw-bold'>{props.name}</p>
     </div>
     </Row>

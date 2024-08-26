@@ -7,10 +7,10 @@ function Footer() {
     <>
     <div className='footerContainer bg-white' >
         <div className='footerItem'>
-            <img src={logo} height={30} width={70}/>
+            <img alt='Logo' src={logo} height={30} width={70}/>
             <div className='d-flex'>
-            <i class="bi bi-facebook fs-2"></i>&nbsp;&nbsp;
-            <i class="bi bi-instagram fs-2"></i>
+            <i className="bi bi-facebook fs-2"></i>&nbsp;&nbsp;
+            <i className="bi bi-instagram fs-2"></i>
             </div>
         </div>
         <div className='footerItem'>

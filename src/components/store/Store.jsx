@@ -41,8 +41,9 @@ const Store = () => {
         <p className='d-flex fw-bold'>2278 Google Reviews</p>
         </Col>
         <Col>
-        <img src={image} alt='store Image' height={170} width={250}/>
-        <img src={image1} alt='store Image1' height={170} width={250}/>
+        <img src={image} alt="Store front" height={170} width={250} />
+<img src={image1} alt="Interior of the store" height={170} width={250} />
+
         </Col>
        <Reviews />
     </Row>
